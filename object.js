@@ -40,7 +40,7 @@ const tinder={
     }
        
 }
-console.log(tinder)
+//console.log(tinder)
 
 
 const obj1={1:"a",2:"b"}
@@ -49,7 +49,7 @@ const obj2={3:"c",4:"d"}
 //const obj3={obj1, obj2}
 //const obj4=Object.assign({},obj1,obj2)
 const obj4={...obj1, ...obj2}
-console.log(obj4);
+//console.log(obj4);
 
 const users=[
     {
@@ -58,8 +58,23 @@ const users=[
     }
 ]
 
-console.log(users[0].name)
-console.log(Object.keys(tinderUser))
+//console.log(users[0].name)
+//console.log(Object.keys(tinderUser))
 
+const course={
+    coursename:"dimag k bb",
+    price:"aukat se bahr",
+    courseInstructor: "soha"
+}
+const{courseInstructor} = course
+console.log(courseInstructor);
 
+//const navbar=(props.company)=>{
 
+//}
+navbar(comapany="suhani.lys")
+
+//{
+   // "name":"suhani",
+   // "price":"free"
+//}
